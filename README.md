@@ -24,8 +24,9 @@ Electron.js 기반 프로그램이라 web browser로 약간의 수정을 통해 
 
  - 일 하는 곳이 보안 상 upload를 못하는 곳에서 매우 유용할 듯 하다. 
  - 통합 Terminal도 열리니 1석 2조
-
+<div align="center">
 <img src="https://user-images.githubusercontent.com/45858414/123279746-1b270800-d543-11eb-9af1-f987705cb553.png" width="70%" height="70%"/>
+</div>
 
 ## 단점
 
@@ -37,4 +38,6 @@ Electron.js 기반 프로그램이라 web browser로 약간의 수정을 통해 
 
  ## Theme 설정
 
- ![1](https://user-images.githubusercontent.com/45858414/123279277-ac49af00-d542-11eb-8fd0-9e29200783e3.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/45858414/123279277-ac49af00-d542-11eb-8fd0-9e29200783e3.png" width="70%" height="70%"/>
+</div>
