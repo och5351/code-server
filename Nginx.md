@@ -12,14 +12,14 @@ Nginx 는 Igor Sysoev라는 러시아 개발자가 만든 동시접속 처리에
 
 <br><br>
 
-1.<span></span>apt 업데이트 
+1.<span> </span>apt 업데이트 
 ---
 
  ```
     $> sudo apt update && sudo apt upgrade
  ```
 
-2.<span></span>curl gnupg2 ca-cerificates lsb-release 설치
+2.<span> </span>curl gnupg2 ca-cerificates lsb-release 설치
 ---
 
  ```
