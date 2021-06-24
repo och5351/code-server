@@ -25,7 +25,7 @@ Electron.js 기반 프로그램이라 web browser로 약간의 수정을 통해 
  - 일 하는 곳이 보안 상 upload를 못하는 곳에서 매우 유용할 듯 하다. 
  - 통합 Terminal도 열리니 1석 2조
 <div align="center">
-<img src="https://user-images.githubusercontent.com/45858414/123279746-1b270800-d543-11eb-9af1-f987705cb553.png" width="70%" height="70%"/>
+<img src="https://user-images.githubusercontent.com/45858414/123280579-db145500-d543-11eb-9ed2-e4382c8d0f28.png" width="70%" height="70%"/>
 </div>
 
 ## 단점
