@@ -17,7 +17,7 @@ Electron.js 기반 프로그램이라 web browser로 약간의 수정을 통해 
 
 ## 설치 순서
 
- - <a href="">코드 서버 설치</a>
+ - <a href="https://github.com/och5351/code-server/blob/main/code-server.md">코드 서버 설치</a>
  - <a href="https://github.com/och5351/code-server/blob/main/Nginx.md">Nginx 설치</a>
 
 ## 장점
@@ -31,3 +31,7 @@ Electron.js 기반 프로그램이라 web browser로 약간의 수정을 통해 
 ## 추 후 계획
 
  - 단점 극복을 위한 Container 화
+
+ ## Theme 설정
+
+ ![1](https://user-images.githubusercontent.com/45858414/123279277-ac49af00-d542-11eb-8fd0-9e29200783e3.png)
