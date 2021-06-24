@@ -15,7 +15,7 @@ Electron.js 기반 프로그램이라 web browser로 약간의 수정을 통해 
 
 ## 설치 순서
 
- - [Nginx 설치](#Nginx)
+ - <a href="https://github.com/och5351/code-server/blob/main/Nginx.md">Nginx 설치</a>
  - 
 
 ## 장점
