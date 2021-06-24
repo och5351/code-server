@@ -5,12 +5,14 @@ Electron.js 기반 프로그램이라 web browser로 약간의 수정을 통해 
 
 현재 이 Readme.md 작성도 code-server를 통해 수정 하였다.
 
+<a href="https://github.com/cdr/code-server">코드 서버 Github Repo</a>
+<span>개인적으로 Star 한번 박아 주자</span> 
+
 ## Install Spec 
 
  - Ubuntu 20.04
  - Nginx
  - Iptime 공유기(?) <- 이건 그냥 넣어 봤다.. iptime 도메인 감사합니다.
-
 
 
 ## 설치 순서
