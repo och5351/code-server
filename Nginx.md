@@ -141,8 +141,21 @@ code-server를 켜 놓지 않은 상태에서 구동 시켰을 경우 당연히 
  ```
   $> sudo systemctl start nginx
  ```
-<br>
+ <div align="right"> 
+<a href="https://github.com/och5351/code-server/blob/main/README.md"> 메인으로 </a>
+</div><br>
 
-<div align="right"> 
+10.<span> </span>code-server 항시 실행
+---
+
+code-server를 항상 Background에서 구동 시키도록 하는 명령어
+
+ ``` 
+  $> systemctl --user enable --now code-server
+
+  $> systemctl --user status code-server
+ ```
+
+ <div align="right"> 
 <a href="https://github.com/och5351/code-server/blob/main/README.md"> 메인으로 </a>
 </div><br>
