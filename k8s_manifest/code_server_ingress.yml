@@ -22,4 +22,4 @@ spec:
           service:
             name: code-server-ocb-svc
             port:
-              number: 8080
+              number: 80

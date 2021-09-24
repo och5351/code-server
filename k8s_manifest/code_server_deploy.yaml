@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: code-server-ocb
+  name: code-server-ocb-deployment
   namespace: ns-code-server
 spec:
   replicas: 2
   selector:
     matchLabels:
       app: code-server-ocb
-  template:
-    metadata:
-      labels:
-        app: code-server-ocb
+  # template:
+  #   metadata:
+  #     labels:
+  #       app: code-server-ocb
     spec:
       hostname: ocb
       containers:
