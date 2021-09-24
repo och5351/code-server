@@ -17,7 +17,7 @@ spec:
     http:
       paths:
       - path: /ocbcode
-        #pathType: Prefix
+        pathType: Prefix
         backend:
           service:
             name: code-server-ocb-svc
