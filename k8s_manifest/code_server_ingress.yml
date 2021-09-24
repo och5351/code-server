@@ -16,10 +16,10 @@ spec:
   - host: opyter.iptime.org
     http:
       paths:
-      - path: /ocbcode
+      - path: /ocbvscode
         pathType: Prefix
         backend:
           service:
             name: code-server-ocb-svc
             port:
-              number: 60001
+              number: 80
