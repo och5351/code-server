@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: code_server_ocb
-  namespace: ns-immovables
+  name: code-server-ocb
+  namespace: ns-code-server
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: code_server_ocb
+      app: code-server-ocb
   template:
     metadata:
       labels:
-        app: code_server_ocb
+        app: code-server-ocb
     spec:
       hostname: ocb
       containers:
-        - name: code_server_ocb
+        - name: code-server-ocb
           image: codercom/code-server:latest
           ports:
             - containerPort: 8080
