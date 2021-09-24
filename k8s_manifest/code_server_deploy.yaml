@@ -8,10 +8,10 @@ spec:
   selector:
     matchLabels:
       app: code-server-ocb
-  # template:
-  #   metadata:
-  #     labels:
-  #       app: code-server-ocb
+  template:
+    metadata:
+      labels:
+        app: code-server-ocb
     spec:
       hostname: ocb
       containers:
