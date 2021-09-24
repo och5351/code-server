@@ -16,7 +16,7 @@ spec:
   - host: opyter.iptime.org
     http:
       paths:
-      - path: /ocbcode
+      - path: /ocbcode/*
         pathType: Prefix
         backend:
           service:
