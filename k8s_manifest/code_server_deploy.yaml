@@ -28,7 +28,7 @@ spec:
               value: 'o531988'
           volumeMounts:
           - name: ocb
-            mountPath: /home/ocb_vscode
+            mountPath: /home/coder/project
       #imagePullSecrets:
       #  - name: my-secret
       volumes:
@@ -36,7 +36,7 @@ spec:
           #persistentVolumeClaim:
             #claimName: jenkins-leader-pvc
           hostPath:
-            path: /home/coder/project
+            path: /home/ocb_vscode
             type: Directory
       nodeSelector:
         kubernetes.io/hostname: och1
