@@ -20,6 +20,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: code-server-ocb
+            name: code-server-ocb-svc
             port:
               number: 80
