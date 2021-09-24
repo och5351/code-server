@@ -2,13 +2,15 @@ apiVersion: v1
 kind: Service
 metadata:
   name: code-server-ocb-svc
+  labels:
+    app: code-server-ocb-svc
   namespace: ns-code-server
 spec:
   ports:
     - name: "http"
       port: 80
       targetPort: 8080
-      nodePort: 31246
+      #nodePort: 31246
       protocol: TCP
   selector:
     app: code-server-ocb
