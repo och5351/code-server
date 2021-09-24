@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: code_server_ocb-svc
+  namespace: ns-immovables
+spec:
+  ports:
+    - name: "http"
+      port: 80
+      targetPort: 8080
+      protocol: TCP
+  selector:
+    app: code_server_ocb
+  type: NodePort

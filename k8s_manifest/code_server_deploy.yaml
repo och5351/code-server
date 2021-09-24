@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: code_server_ocb
+  namespace: ns-immovables
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: code_server_ocb
+  template:
+    metadata:
+      labels:
+        app: code_server_ocb
+    spec:
+      hostname: ocb
+      containers:
+        - name: code_server_ocb
+          image: codercom/code-server:latest
+          ports:
+            - containerPort: 8080
+            - containerPort: 443
+          imagePullPolicy: Always
+          env:
+            - name: DATE
+              value: 'DATE_STRING'
+              name: PASSWORD
+              value: 'o531988'
+          volumeMounts:
+          - name: ocb
+            mountPath: /home/ocb_vscode
+      #imagePullSecrets:
+      #  - name: my-secret
+      volumes:
+        - name: ocb
+          #persistentVolumeClaim:
+            #claimName: jenkins-leader-pvc
+          hostPath:
+            path: /home/coder/project
+            type: Directory
+      nodeSelector:
+        kubernetes.io/hostname: och1
